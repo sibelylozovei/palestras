@@ -9,6 +9,23 @@
       gtag('js', new Date());
       gtag('config', 'G-7ZVCLJ899K');
   </script>
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '25991419360457815');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=25991419360457815&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sistema Contínuo de Sucesso</title>
@@ -837,5 +854,14 @@ footer strong { color: rgba(245,243,238,0.5); font-weight: 600; }
   <p style="margin-top:6px;">&#169; 2026 Inteiramente Rico. Todos os direitos reservados.</p>
 </footer>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href*="wa.me"]').forEach(function (el) {
+      el.addEventListener('click', function () {
+        if (typeof fbq === 'function') { fbq('track', 'Lead'); }
+      });
+    });
+  });
+</script>
 </body>
 </html>
